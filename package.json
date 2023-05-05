@@ -1,0 +1,23 @@
+{
+  "name": "@softoika/playwright-esbuild-example",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "playwright-esbuild-example": "bin/playwright-esbuild-example"
+  },
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/yargs": "^17.0.24",
+    "esbuild": "^0.17.18",
+    "playwright": "^1.33.0",
+    "typescript": "^5.0.4",
+    "yargs": "^17.7.2"
+  }
+}
